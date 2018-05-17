@@ -9,7 +9,7 @@
 <main id="content" role="main">
   <div class="grid-row">
     <div class="column-two-thirds">
-      <a href="#" class="link-back">Back</a>
+      <a href="email-licence" class="link-back">Back</a>
 
       <h1 class="heading-large">
         Check your answers before sending your application
@@ -51,6 +51,19 @@
           </dd>
         </div>
 
+        <div>
+          <dt class="cya-question">
+            Where we'll send your juggling licence
+          </dt>
+          <dd class="cya-answer">
+            {{ data['email-licence'] }}
+          </dd>
+          <dd class="cya-change">
+            <a href="email-licence">
+              Change<span class="visually-hidden"> email licence</span>
+            </a>
+          </dd>
+        </div>
 
       </dl>
 
